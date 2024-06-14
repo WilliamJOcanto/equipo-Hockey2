@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(172, 229, 238);
+    background-image: url('../asset/design1_image2.jpg'); 
+    background-position-y: 80px;
+}
+
+header{
+    border: 3px solid black;
+    background-color: rgb(102, 51, 0);
+    height: 25vh;
+}
+
+.contenedorGrnd .subtitulo {
+    border: 2px black solid;
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 2px 0px;
+    background-color: rgb(255, 255, 102);
+    border-radius: 16px;
+  }
+
+  header #title{
+    color: white;
+    position: relative;
+    left: 211px;
+    top: 58px;
+    font-size: 44px;
+    text-shadow: 8px 7px 3px rgb(0 0 0);
+  }
+
+  nav{
+    position: absolute;
+    right: 30px;
+    top: 89px;
+  }
+
+  nav a{
+    color: rgb(255, 255, 102);
+    text-decoration: none;
+    padding: 10px 24px;
+    margin-right: 20px;
+    position: relative;
+    background-color: black;
+    box-shadow: 3px 3px 1.8px rgb(255, 255, 102);
+    border-radius: 16px;
+    font-size: 18px;
+  }
+
+  a[href="#"] {
+    background-color: rgb(255, 255, 102);
+    color: black;
+    box-shadow: 4px 4px 1.8px black
+  }
+
+  .contenedorGrnd{
+    position: relative;
+  }
+
+  .contenedorGrnd .contenedorPeq{
+    position: absolute;
+    top: 82px;
+    left: 260px;
+    border: 3px solid black;
+    width: 800px;
+    height: 50vh;
+    border-radius: 26px;
+    text-align: center;
+    background-color:rgb(255, 255, 102);
+    padding-top: 28px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 1.8px black
+  }
+
+  .contenedorGrnd #logo{
+    position: absolute;
+    bottom: 29px;
+    width: 180px;
+    left: 14px;
+  }
+
+  .contenedorGrnd .contenedorPeq .parrafo {
+    text-indent: 20px;
+    padding-top: 5px;
+    margin-bottom: 28px;
+  }
+
+  .contenedorPeq h3{
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: red;
+    transition: color 0.6s;
+  }
+  
